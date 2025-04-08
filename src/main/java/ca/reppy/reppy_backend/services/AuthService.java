@@ -1,7 +1,7 @@
 package ca.reppy.reppy_backend.services;
 import ca.reppy.reppy_backend.configs.JwtService;
 import ca.reppy.reppy_backend.entities.User;
-import ca.reppy.reppy_backend.exceptions.InvalidateCredentialsException;
+import ca.reppy.reppy_backend.exceptions.InvalidCredentialsException;
 import ca.reppy.reppy_backend.exceptions.NotFoundException;
 import ca.reppy.reppy_backend.repositories.UserRepository;
 import org.springframework.stereotype.Service;
@@ -42,7 +42,7 @@ public class AuthService {
                 .orElseThrow(() -> new NotFoundException("user not found"));
 
         if (user.getOtp() == null || user.getOtpExpiry() == null || user.isOtpUsed()) {
-            throw new InvalidateCredentialsException("otp not generated or already used");
+            throw new InvalidCredentialsException("otp not generated or already used");
         }
 
         long currentTime = System.currentTimeMillis();
@@ -54,7 +54,7 @@ public class AuthService {
             userRepository.save(user);
             return jwtService.generateToken(email);
         }
-        throw new InvalidateCredentialsException("invalid or expired otp");
+        throw new InvalidCredentialsException("invalid or expired otp");
     }
 
     private void generateOTP(User user) {

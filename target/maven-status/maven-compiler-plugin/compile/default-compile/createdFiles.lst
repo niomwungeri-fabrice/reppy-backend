@@ -1,4 +1,3 @@
-ca/reppy/reppy_backend/exceptions/InvalidateCredentialsException.class
 ca/reppy/reppy_backend/dtos/UserSignUpResponse$UserSignUpResponseBuilder.class
 ca/reppy/reppy_backend/ReppyBackendApiApplication.class
 ca/reppy/reppy_backend/dtos/UserSignUpRequest$UserSignUpRequestBuilder.class
@@ -14,6 +13,7 @@ ca/reppy/reppy_backend/exceptions/GlobalExceptionHandler.class
 ca/reppy/reppy_backend/services/AuthService.class
 ca/reppy/reppy_backend/entities/User.class
 ca/reppy/reppy_backend/exceptions/JwtAuthenticationException.class
+ca/reppy/reppy_backend/exceptions/InvalidCredentialsException.class
 ca/reppy/reppy_backend/exceptions/NotFoundException.class
 ca/reppy/reppy_backend/dtos/TokenResponse.class
 ca/reppy/reppy_backend/exceptions/ConflictException.class
