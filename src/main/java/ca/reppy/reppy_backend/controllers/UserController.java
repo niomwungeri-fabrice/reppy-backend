@@ -13,7 +13,8 @@ import java.security.Principal;
 @RestController
 @RequestMapping("/users")
 public class UserController {
-    AuthService authService;
+
+    private final AuthService authService;
 
     public UserController(AuthService authService) {
         this.authService = authService;

@@ -17,14 +17,14 @@ public class JwtService {
     private String jwtSecret;
 
     @Value("${jwt.expiration}")
-    private long jwtExpiration;
+    private long jwtExpirationInSeconds;
 
     private Key getSigningKey() {
         return Keys.hmacShaKeyFor(Decoders.BASE64.decode(jwtSecret));
     }
 
     public String generateToken(String email) {
-        long expirationTime = jwtExpiration; // 1 year
+        long expirationTime = jwtExpirationInSeconds; // 1 year
 
         return Jwts.builder()
                 .setSubject(email)
