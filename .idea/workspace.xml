@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="757dcedf-7599-46c4-808d-69164a0b1594" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/controllers/EquipmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/dtos/EquipmentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/dtos/GenericSuccessResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/entities/Equipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/events/listener/EquipmentIconEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/events/models/EquipmentCreatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/repositories/EquipmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/services/EquipmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/utils/EquipmentIconResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/utils/GenericUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/utils/JSONUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/utils/ResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/equipment-icon-index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/ReppyBackendApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/ReppyBackendApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/configs/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/configs/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/configs/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/configs/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/reppy/reppy_backend/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;niomwungeri-fabrice&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="10-add-equipment" />
+                    <option name="lastUsedInstant" value="1744647476" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1744155226" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="5-infra-add-jwt-support" />
+                    <option name="lastUsedInstant" value="1744149746" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="3-infra-add-docker-compose-for-postgresql" />
+                    <option name="lastUsedInstant" value="1744138020" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="1-setup-initialize-spring-boot-project" />
+                    <option name="lastUsedInstant" value="1744137531" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1744729127" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1744729126" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/src/main/resources/icons/icon-sets" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/niomwungeri-fabrice/reppy-backend.git&quot;,
+    &quot;accountId&quot;: &quot;80b50b1f-0b5d-499a-9c89-c989d8033430&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2vST2jC7gGkwgBLffZvpomjXdQo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "10-add-equipment",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/niomwungeri/Documents/Work/PERSONAL_APPS/reppy/reppy-backend/src/main/resources/icons"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="757dcedf-7599-46c4-808d-69164a0b1594" name="Changes" comment="" />
+      <created>1744137269409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744137269409</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -27,8 +27,8 @@ public class JwtAuthFilter extends GenericFilterBean {
     private final JwtService jwtService;
 
     private static final Set<String> PUBLIC_ENDPOINTS = Set.of(
-            "/auth/register",
-            "/auth/login",
+            "/auths/register",
+            "/auths/login",
             "/v3/api-docs",
             "/v3/api-docs/**",
             "/swagger-ui.html",
